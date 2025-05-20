@@ -91,9 +91,34 @@ h1 ,h2,h3,h4,h5,h6{
 .textaccent{
   color: var(--accent);
 }
+.bgaccent{
+  background-color: var(--accent);
+}
+.bgprimary{
+  background-color: var(--primary);
+}
 
 .fontmontserrat{
   font-family: var(--font-montserrat);
 }
 
 
+.bg-hero-custom {
+  background-image: url('/assets/img/hero/bg.jpg');
+ 
+}
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+ 
+}
+
+/* .container{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 100%; 
+} */
