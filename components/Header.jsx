@@ -14,8 +14,8 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/**log */}
           <div>
-          {/* <LogoErland/> */}
-          <Logo/>
+          <LogoErland/>
+          {/* <Logo/> */}
 
 
           </div>

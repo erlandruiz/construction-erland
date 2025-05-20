@@ -36,8 +36,8 @@ const NavMobile = () => {
         <div  className="flex flex-col pt-16 pb-8  items-center justify-between h-full">
           <SheetHeader>
             <SheetTitle>
-              {/* <LogoErland /> */}
-              <Logo />
+              <LogoErland />
+              {/* <Logo /> */}
             </SheetTitle>
             <SheetDescription className="sr-only">Menu </SheetDescription>
           </SheetHeader>
