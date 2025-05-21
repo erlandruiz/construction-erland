@@ -93,6 +93,9 @@ h1 ,h2,h3,h4,h5,h6{
 .fontprimary{
   font-family: var(--font-dmSans-primary);
 }
+.fontsecondary{
+  font-family: var(--font-barlow-secondary);
+}
 
 .textaccent{
   color: var(--accent);

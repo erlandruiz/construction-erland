@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="container mx-auto h-full flex items-center">
         <div className="z-20 text-white text-center xl:text-left mx-auto xl:mx-0 flex flex-col items-center xl:items-start max-w-[608px]
         ">
-          <h1 className="h1 text-white mb-4">
+          <h1 className="h1 text-white mb-4 fontsecondary font-semibold">
             <span className="textaccent">Construcciones</span> Eléctricas
             robustas y  duraderas.
           </h1>

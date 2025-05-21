@@ -8,7 +8,7 @@ const SignatureErland = () => {
         textShadow: "2px 2px 4px rgba(0,0,0,0.2)",
       }}
     >
-      Cristhian Alaba.
+      Cristhian Cruz Alaba.
     </div>
   );
 };
