@@ -48,6 +48,7 @@ const About = () => {
                 width={444}
                 height={493}
                 alt=""
+                
              
               />
             </div>
