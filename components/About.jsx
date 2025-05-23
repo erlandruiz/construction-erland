@@ -28,7 +28,7 @@ const About = () => {
                   height={38}
                   alt=""
                 /> */}
-                <SignatureErland/>
+                <SignatureErland text="Cristhian Cruz Alab"/>
                 <p>CEO</p>
               </div>
 

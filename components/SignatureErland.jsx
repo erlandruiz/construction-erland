@@ -1,4 +1,4 @@
-const SignatureErland = () => {
+const SignatureErland = ({text}) => {
   return (
     <div
       style={{
@@ -8,7 +8,7 @@ const SignatureErland = () => {
         textShadow: "2px 2px 4px rgba(0,0,0,0.2)",
       }}
     >
-      Cristhian Cruz Alaba.
+      {text}.
     </div>
   );
 };

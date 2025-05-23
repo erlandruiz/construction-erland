@@ -1,6 +1,6 @@
 const Contact = ()=>{
     return(
-        <div className="h-screen bg-pink-200" id="contact">sdd</div>
+        <div className="pt-16 xl:pt-32" id="contact">sdd</div>
     )
 }
 export default Contact;
