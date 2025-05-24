@@ -18,7 +18,7 @@ const Contact = () => {
         <div className="w-full xl:h-[730px] shadow-custom p-4 xl:p-8 xl:px-[90px] xl:py-[36px] border-t-4 border-bgaccent">
           <div className="flex flex-col xl:flex-row h-full gap-[40px] xl:gap-[90px]">
             {/** */}
-            <div className="w-full xl:max-w-[380px] xl:pr-[70px] xl:border-r xl:border-border/40 h-[640px]">
+            <div className="w-full xl:max-w-[380px] xl:pr-[70px] xl:border-r xl:border-border/40 h-auto xl:h-[640px] ">
               <h4 className="text-[26px] fontprimary font-bold mb-6">
                 Contáctanos.
               </h4>
