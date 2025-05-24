@@ -1,19 +1,32 @@
 import { RiChat1Line, RiMapPin2Line, RiSmartphoneLine } from "react-icons/ri";
 import Socials from "./Socials";
 import Form from "./Form";
+
+import { motion } from "framer-motion";
+import { fadeIn } from "@/variants";
+
 const Contact = () => {
   return (
     <section className="pt-16 xl:pt-32" id="contact">
-      <div className="container mx-auto">
+      <motion.div
+        variants={fadeIn("up", 0.1)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.2 }}
+        className="container mx-auto"
+      >
         <div className="w-full xl:h-[730px] shadow-custom p-4 xl:p-8 xl:px-[90px] xl:py-[36px] border-t-4 border-bgaccent">
           <div className="flex flex-col xl:flex-row h-full gap-[40px] xl:gap-[90px]">
             {/** */}
             <div className="w-full xl:max-w-[380px] xl:pr-[70px] xl:border-r xl:border-border/40 h-[640px]">
               <h4 className="text-[26px] fontprimary font-bold mb-6">
-                Contáctanos
+                Contáctanos.
               </h4>
               <p className="mb-9">
-                Estamos aquí para iluminar tu camino. Si tienes preguntas, necesitas soporte o deseas solicitar un servicio, no dudes en contactarnos. Nuestro equipo de expertos está listo para ofrecerte soluciones eléctricas eficientes y seguras.
+                Estamos aquí para iluminar tu camino. Si tienes preguntas,
+                necesitas soporte o deseas solicitar un servicio, no dudes en
+                contactarnos. Nuestro equipo de expertos está listo para
+                ofrecerte soluciones eléctricas eficientes y seguras.
               </p>
               {/** */}
               <div className="flex flex-col gap-[40px] mb-16">
@@ -24,10 +37,10 @@ const Contact = () => {
                   </div>
                   <div>
                     <h5 className="text-[22px] font-semibold fontprimary leading-none mb-2">
-                      Chatea con Nosotros
+                      Chatea con Nosotros.
                     </h5>
                     <p className="mb-4">
-                      Nuestro amable equipo está aquí para ayudarte.{" "}
+                      Nuestro amable equipo está aquí para ayudarte.
                     </p>
                     <p className="font-semibold textprimary">
                       empresaelectrica@mail.com
@@ -42,7 +55,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h5 className="text-[22px] font-semibold fontprimary leading-none mb-2">
-                      Oficina
+                      Oficina.
                     </h5>
                     <p className="mb-4">Ven a saludarnos a nuestra oficina. </p>
                     <p className="font-semibold textprimary">
@@ -58,19 +71,18 @@ const Contact = () => {
                   </div>
                   <div>
                     <h5 className="text-[22px] font-semibold fontprimary leading-none mb-2">
-                      Teléfono
+                      Teléfono.
                     </h5>
-                    <p className="mb-4">
-                     Lunes-Viernes de 8am-5pm.
-                    </p>
-                    <p className="font-semibold textprimary">
-                      +51 999-999-999
-                    </p>
+                    <p className="mb-4">Lunes-Viernes de 8am-5pm.</p>
+                    <p className="font-semibold textprimary">+51 999-999-999</p>
                   </div>
                 </div>
               </div>
 
-              <Socials containerStyles="flex gap-[40px]" iconStyles="textprimary text-[20px]"/>
+              <Socials
+                containerStyles="flex gap-[40px]"
+                iconStyles="textprimary text-[20px]"
+              />
             </div>
             {/**form */}
             <div className="flex-1">
@@ -85,7 +97,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };

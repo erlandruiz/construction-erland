@@ -29,7 +29,7 @@ export default function Home() {
 
   console.log(headerActive);
   return (
-    <div>
+    <div className="overflow-hidden">
       <Topbar />
       {/*static header*/}
       <div className="relative z-10">
@@ -50,7 +50,7 @@ export default function Home() {
       <Footer />
 
       {/**/}
-      <div className="h-[1000px]"></div>
+      {/* <div className="h-[1000px]"></div> */}
     </div>
   );
 }
